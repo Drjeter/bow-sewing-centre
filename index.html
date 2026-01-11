@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bow Sewing Centre Ltd</title>
+  <meta name="description"
+    content="Bow Sewing Centre (Formerly Bow Embroidery Centre). School uniforms, professional alterations, and embroidery services in Bow, London.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'uniform-navy': '#0d1b2a',
+            'uniform-light': '#f8f9fa',
+            'service-green': '#283618',
+            'service-beige': '#fefae0',
+            'service-dark-beige': '#dda15e',
+          }
+        }
+      }
+    }
+  </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.10.1",
+    "react/": "https://esm.sh/react@^19.2.2/",
+    "react": "https://esm.sh/react@^19.2.2",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.2/"
+  }
+}
+</script>
+</head>
+
+<body class="bg-gray-100">
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+</body>
+
+</html>
