@@ -18,7 +18,7 @@ const LandingPage = () => {
         {/* School Uniforms Card */}
         <Link to="/uniforms" className="group block rounded-lg overflow-hidden shadow-2xl transform transition-transform hover:scale-105 duration-300 ease-in-out">
           <div className="relative h-96">
-            <img src="https://picsum.photos/800/600?random=uniform" alt="School uniforms" className="absolute inset-0 w-full h-full object-cover"/>
+            <img src="/images/hero/uniform-shop-hero.png" alt="School uniforms" className="absolute inset-0 w-full h-full object-cover"/>
             <div className="absolute inset-0 bg-uniform-navy bg-opacity-60 group-hover:bg-opacity-70 transition-opacity duration-300"></div>
             <div className="relative h-full flex flex-col items-center justify-center text-center p-6 text-white">
               <h2 className="text-3xl font-extrabold mb-2">School Uniforms Shop</h2>
@@ -33,7 +33,7 @@ const LandingPage = () => {
         {/* Alterations & Sewing Services Card */}
         <Link to="/services" className="group block rounded-lg overflow-hidden shadow-2xl transform transition-transform hover:scale-105 duration-300 ease-in-out">
           <div className="relative h-96">
-            <img src="https://picsum.photos/800/600?random=sewing" alt="Sewing machine" className="absolute inset-0 w-full h-full object-cover"/>
+            <img src="/images/hero/sewing-services-hero.png" alt="Sewing machine" className="absolute inset-0 w-full h-full object-cover"/>
             <div className="absolute inset-0 bg-service-green bg-opacity-60 group-hover:bg-opacity-70 transition-opacity duration-300"></div>
             <div className="relative h-full flex flex-col items-center justify-center text-center p-6 text-white">
               <h2 className="text-3xl font-extrabold mb-2">Alterations & Sewing</h2>
